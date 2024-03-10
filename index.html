@@ -3,11 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Amuse</title>
+    <link rel="stylesheet" href="assets/css/splide.min.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is a basic GitHub Page. More content coming soon!</p>
+<header>
+    <div class="header-nav">
+        <img src="assets/img/logo.svg" alt="logo"/>
+        <div class="links">
+            <span data-translate="whyAmuse" onclick="navClicked('.why-section')">Why Amuse</span>
+            <span data-translate="ourVision" onclick="navClicked('.vision-section')">Our Vision</span>
+            <span data-translate="plan" onclick="navClicked('.package-section')">Plan</span>
+        </div>
+        <div class="mobile-gap"></div>
+        <a class="get-app" href="javascript:void(0)">
+            <img src="assets/img/download-icon.svg" alt=""/>
+            <span data-translate="getApp">Get App</span>
+        </a>
+        <div class="hamburger" onclick="toggleMenu(this)">
+            <div class="bars">
+                <div class="bar top"></div>
+                <div class="bar middle"></div>
+                <div class="bar bottom"></div>
+            </div>
+        </div>
+
+    </div>
+</header>
+<div class="container">
+    <section class="main-banner text-center">
+        <div>
+            <img src="assets/img/three-cards-small.svg"/>
+        </div>
+        <h1 data-translate="mainBannerTitle">
+            Unlock Your Potential, One Spark at a Time
+        </h1>
+        <p data-translate="mainBannerDescription">Amuse App - Where Curiosity Meets Growth</p>
+        <div class="download-buttons">
+            <a href="javascript:void(0)">
+                <img src="assets/img/app-store.png" alt="App Store"/>
+            </a>
+            <a href="javascript:void(0)">
+                <img src="assets/img/google-play.png" alt="Google Play"/>
+            </a>
+        </div>
+        <div class="main-banner-image">
+            <img src="assets/img/main-banner.png"/>
+        </div>
+        <div class="particles">
+            <img src="assets/img/particle.svg" alt=""/>
+            <img src="assets/img/particle.svg" alt=""/>
+            <img src="assets/img/particle.svg" alt=""/>
+            <img src="assets/img/particle.svg" alt=""/>
+            <img src="assets/img/particle.svg" alt=""/>
+        </div>
+
+    </section>
+</div>
+    <div class="main-banner-slider splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="assets/img/slide-1.png" alt="">
+                </li>
+                <li class="splide__slide">
+                    <img src="assets/img/slide-2.png" alt="">
+                </li>
+                <li class="splide__slide">
+                    <img src="assets/img/slide-3.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+<div class="container">
+    <section class="why-section text-center">
+        <h2 class="text-sm-left" data-translate="whyAmuseQ">Why Amuse?</h2>
+        <p class="text-sm-left" data-translate="whySectionDesc">
+            At Amuse App, we believe in the power of curiosity to drive learning and personal growth. Our approach is simple yet profound, designed around the science of how your brain absorbs and retains information. Here's why we do what we do:
+        </p>
+        <div class="card-row">
+            <div class="card smaller-card">
+                <img src="assets/img/why-section/three-cards.svg" alt=""/>
+                <h4 data-translate="threeCardsADay">Three Cards a Day</h4>
+                <p data-translate="whySectionCardsDesc">Escape information overload! We curate just three cards daily for optimal retention, making every piece of knowledge count.</p>
+                <div class="particles card-particles-1">
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                </div>
+            </div>
+            <div class="card bigger-card">
+                <img src="assets/img/why-section/topics.svg" alt=""/>
+                <h4 data-translate="curatedTopics">Curated Topics</h4>
+                <p data-translate="whySectionTopicsDesc">Focusing on five key topics enhances meaningful learning, aligning with cognitive science principles that emphasize less is more for effective learning.</p>
+                <div class="particles card-particles-2">
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                </div>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card bigger-card reversed">
+                <h4 data-translate="spacedLearning">Spaced Learning</h4>
+                <p data-translate="whySectionLearningDesc">Our spaced repetition model fast-tracks lasting learning by reinforcing memory over time. It aligns with how your brain prefers to learn, providing the space to digest and grow.</p>
+                <img src="assets/img/why-section/learning.svg" alt=""/>
+                <div class="particles card-particles-3">
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                </div>
+            </div>
+            <div class="card smaller-card">
+                <img src="assets/img/why-section/light.svg" alt=""/>
+                <h4 data-translate="sparkYourCuriosity">Spark Your Curiosity</h4>
+                <p data-translate="whySectionCuriosityDesc">Amuse is crafted to ignite daily interest, inviting you on a journey of discovery and growth through curiosity, not just sharing knowledge.</p>
+                <div class="particles card-particles-4">
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                    <img src="assets/img/particle.svg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center vision-section">
+        <h2 data-translate="ourVision">Our Vision</h2>
+        <div class="vision-quote">
+            <img src="assets/img/quote-icon.svg"/>
+            <p data-translate="visionSectionDesc">
+                To amuse and grow, one curious mind at a time. Dive into a world where learning feels like play, and every discovery is a step towards a richer, more enlightened you. Let's keep a little mystery, though; the best discoveries are the ones you make yourself.
+            </p>
+        </div>
+    </section>
+    <section class="package-section">
+        <div class="text-center">
+            <h2 data-translate="plansAndFeatures">Plans & Features</h2>
+        </div>
+        <div class="plan-row">
+            <div class="free">
+                <div class="upper">
+                    <img src="assets/img/three-cards-small.svg"/>
+                    <b data-translate="freePrice">$0</b>
+                </div>
+                <h3>Free Plan</h3>
+                <div class="line"></div>
+                <div class="item">
+                    <img src="assets/img/check-filled.svg"/>
+                    <span data-translate="freePlanItem1">Daily access to three carefully selected cards</span>
+                </div>
+                <div class="item">
+                    <img src="assets/img/check-filled.svg"/>
+                    <span data-translate="freePlanItem2">Explore up to five diverse topics</span>
+                </div>
+                <div class="item">
+                    <img src="assets/img/check-filled.svg"/>
+                    <span data-translate="freePlanItem3">Engage with the community in discussions</span>
+                </div>
+                <div class="item">
+                    <img src="assets/img/check-filled.svg"/>
+                    <b data-translate="freePlanItem4">Track your learning progress</b>
+                </div>
+            </div>
+            <div class="premium">
+                <div class="upper">
+                    <img src="assets/img/three-cards-golden.svg"/>
+                    <b data-translate="premiumPrice">$4.99</b>/<span data-translate="month">Month</span>
+                </div>
+                <h3 data-translate="premiumPlan">Premium Plan</h3>
+                <div class="line"></div>
+                <div class="item">
+                    <img src="assets/img/check-filled.svg"/>
+                    <span data-translate="premiumPlanItem1">Topic Archives: Access all completed topics anytime.</span>
+                </div>
+                <div class="item">
+                    <img src="assets/img/check-filled.svg"/>
+                    <span data-translate="premiumPlanItem2">Daily Review Trio:  3 Cards to Reinforce Past Lessons.</span>
+                </div>
+                <div class="item">
+                    <img src="assets/img/check-filled.svg"/>
+                    <span data-translate="premiumPlanItem3">Advanced AI: Enjoy more personalized, effective learning cards.</span>
+                </div>
+                <div class="item">
+                    <img src="assets/img/check-filled.svg"/>
+                    <span data-translate="premiumPlanItem4">Popular Topics: Gain exclusive access to trending topics.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="journey-section text-center">
+
+        <div>
+            <img src="assets/img/three-cards-small.svg" class="journey-icon"/>
+        </div>
+        <h2 data-translate="startJourneyTitle">Start Your Journey of Curiosity</h2>
+        <div class="download-buttons">
+            <a href="javascript:void(0)">
+                <img src="assets/img/app-store.png" alt="App Store"/>
+            </a>
+            <a href="javascript:void(0)">
+                <img src="assets/img/google-play.png" alt="Google Play"/>
+            </a>
+        </div>
+    </section>
+
+</div>
+<footer class="text-center">
+    <div class="container">
+        <div class="line"></div>
+    </div>
+    <div class="rights">© 2024 <span data-translate="footerRights">All right reserved. Amuse</span></div>
+    <img src="assets/img/footer-logo.svg">
+</footer>
 </body>
+<script src="assets/js/splide.min.js"></script>
+<script src="assets/js/main.js"></script>
 </html>
 
