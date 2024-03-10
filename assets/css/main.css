@@ -524,6 +524,10 @@ footer img {
         overflow: visible;
     }
 
+    .splide__slide img {
+        width: 294px;
+    }
+
     .main-banner-slider {
         display: block;
         margin-top: 60px;
