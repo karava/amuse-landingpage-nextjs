@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "6XZU2C3NLQ.org.avaconsult.amuse",
+        "paths": ["/path/to/content", "/share*"]
+      }
+    ]
+  }
+}
+

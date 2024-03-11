@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.avaconsult.amuse",
+    "sha256_cert_fingerprints":
+    ["36:29:21:C8:9D:3D:F4:2A:4B:AB:10:C2:D3:19:6F:2A:50:F8:A3:1C:0A:42:8C:6A:03:64:AE:67:E0:EF:06:36"]
+  }
+}]
+
