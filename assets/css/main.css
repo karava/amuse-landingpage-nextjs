@@ -254,6 +254,9 @@ header .links span {
 .card-row .card.reversed p {
     margin-bottom: 74px;
 }
+.card-row .card.reversed > img {
+    width: 609px;
+}
 
 .card-row .bigger-card {
     flex: 2;
