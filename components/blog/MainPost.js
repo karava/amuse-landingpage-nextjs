@@ -7,8 +7,6 @@ import Link from "next/link";
 async function MainPost() {
   const post = await fetchLatestPost();
 
-  console.log(post.slug.current);
-
   return (
     <section className="mx-auto max-w-[1200px] px-5">
       <Link
