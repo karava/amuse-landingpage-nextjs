@@ -11,7 +11,7 @@ export const metadata = {
     template: "%s — Amuse",
     default: "Welcome — Amuse",
   },
-  description: "Amuse is a great mobile application",
+  description: "Amuse is a curiosity-driven learning app that delivers daily, bite-sized lessons. Harnessing microlearning and spaced repetition, Amuse helps users discover new knowledge, optimize memory retention, and enjoy a fun, personalized growth journey. Ideal for learners of all ages and busy schedules.",
   icons: {
     icon: ["/favicon/favicon.ico?v=4"],
     apple: ["/favicon/apple-touch-icon.png?v=4"],
