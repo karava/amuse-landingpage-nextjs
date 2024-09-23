@@ -43,9 +43,10 @@ function BlogNav({ data }) {
         </ul>
       </div>
 
-      <div className="relative z-10 lg:hidden">
+      <div className="relative z-50 px-5 lg:hidden">
         <Select
           options={Categories}
+          isSearchable={false}
           onChange={(selected) =>
             router.replace(`/blog?category=${selected.value}`, {
               scroll: false,
@@ -75,8 +76,8 @@ function BlogNav({ data }) {
             borderRadius: 0,
             colors: {
               ...theme.colors,
-              primary25: "rgb(246, 186, 31, 0.4)",
-              primary: "#F6BA1F",
+              primary25: "rgba(19,13,26, 0.4)",
+              primary: "#130D1A",
             },
           })}
         />
