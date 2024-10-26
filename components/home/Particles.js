@@ -1,36 +1,36 @@
 import Image from "next/image";
-import praticle from "../../public/images/particle.svg";
+import particle from "../../public/images/particle.svg";
 
-function Praticles() {
+function Particles() {
   return (
     <div className="particles">
       <Image
-        src={praticle}
-        alt="praticle image from amuse.so"
+        src={particle}
+        alt="particle image from amuse.so"
         className="absolute z-0 object-cover object-center"
       />
       <Image
-        src={praticle}
-        alt="praticle image from amuse.so"
+        src={particle}
+        alt="particle image from amuse.so"
         className="absolute z-0 object-cover object-center"
       />
       <Image
-        src={praticle}
-        alt="praticle image from amuse.so"
+        src={particle}
+        alt="particle image from amuse.so"
         className="absolute z-0 object-cover object-center"
       />
       <Image
-        src={praticle}
-        alt="praticle image from amuse.so"
+        src={particle}
+        alt="particle image from amuse.so"
         className="absolute z-0 object-cover object-center"
       />
       <Image
-        src={praticle}
-        alt="praticle image from amuse.so"
+        src={particle}
+        alt="particle image from amuse.so"
         className="absolute z-0 object-cover object-center"
       />
     </div>
   );
 }
 
-export default Praticles;
+export default Particles;

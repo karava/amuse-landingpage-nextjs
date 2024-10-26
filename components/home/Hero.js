@@ -3,7 +3,7 @@ import Image from "next/image";
 import smallThreeCards from "../../public/images/three-cards-small.svg";
 
 import mainBanner from "../../public/images/main-banner.png";
-import Praticles from "./Praticles";
+import Particles from "./Particles";
 import EmblaCarousel from "../ui/EmblaCarousel";
 import MobileApps from "../MobileApps";
 
@@ -11,7 +11,7 @@ function Hero() {
   return (
     <section className="relative mx-auto mb-32 max-w-[1200px] overflow-x-hidden text-center lg:px-0">
       <div className="hidden lg:block">
-        <Praticles />
+        <Particles />
       </div>
       <div className="mx-auto lg:max-w-[800px]">
         <Image
