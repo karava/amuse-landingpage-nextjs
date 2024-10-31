@@ -5,7 +5,7 @@ import Plans from "@/components/home/Plans";
 import WhyAmuse from "@/components/home/WhyAmuse";
 
 export const metadata = {
-  title: "Home",
+  title: "Amuse — Atomic learning",
 };
 
 function page() {

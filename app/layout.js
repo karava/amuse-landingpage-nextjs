@@ -8,10 +8,10 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata = {
   title: {
-    template: "%s — Amuse",
-    default: "Welcome — Amuse",
+    template: "%s — Atomic learning",
+    default: "Amuse — Atomic learning",
   },
-  description: "Amuse is a curiosity-driven learning app that delivers daily, bite-sized lessons. Harnessing microlearning and spaced repetition, Amuse helps users discover new knowledge, optimize memory retention, and enjoy a fun, personalized growth journey. Ideal for learners of all ages and busy schedules.",
+  description: "Amuse is a curiosity-driven learning app that delivers daily, bite-sized lessons, utilizing a flashcard format. Harnessing atomic learning and spaced repetition (srs), Amuse helps users discover new knowledge, optimize memory retention, and enjoy a fun, personalized growth journey. Ideal for learners of all ages and busy schedules.",
   icons: {
     icon: ["/favicon/favicon.ico?v=4"],
     apple: ["/favicon/apple-touch-icon.png?v=4"],
